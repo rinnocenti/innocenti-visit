@@ -1,0 +1,16 @@
+{
+  "name": "innocenti-visit",
+  "title": "Innocenti Visit",
+  "description": "<p>Modulo para testar sockets e montar uma macro global parta visitar tokens</p>",
+  "author": "Renato innocenti",
+  "version": "1.0",
+  "minimumCoreVersion": "0.6.6",
+  "esmodules": [ "main.js" ],
+  "scripts": [],
+  "styles": [],
+  "socket": true,
+  "url": "https://github.com/rinnocenti/innocenti-visit",
+  "manifest": "https://raw.githubusercontent.com/rinnocenti/innocenti-visit/master/module.json",
+  "download": "https://github.com/rinnocenti/innocenti-visit/archive/master.zip",
+  "packs": []
+}
