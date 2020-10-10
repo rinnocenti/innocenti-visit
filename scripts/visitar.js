@@ -22,7 +22,7 @@ export let Visitar = async function () {
             let targactor = await game.actors.entities.find(a => a.id === targetToken.actor.id);
             let perm = targactor.data.permission;
             if (!perm[`${game.user.id}`]) {
-                await game.socket.emit("module.innocenti-visit", { token: targetToken.name, userid: game.user.id});
+                await game.socket.emit("module.innocenti-visit", { token: targactor.name, userid: game.user.id});
             }
         }
     }
