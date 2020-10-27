@@ -1,6 +1,6 @@
 import { Visitar } from './scripts/visitar.js';
 
-Hooks.once("init", () => {
+Hooks.once("init", async () => {
     game.socket.on(`module.innocenti-visit`, (data) => {
         let actor = game.actors.entities.find(a => a.name === data.token);
         if (!actor) return ui.notifications.error(`Permission: Actor of ${data.token} not found`);
